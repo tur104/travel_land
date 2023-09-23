@@ -12,10 +12,10 @@
     gap: 24px;
     
     a {
-        color:#181818;
+        color: var(--text-color);
     }
     a:hover, a.active{
-        color: #35aff4;
+        color:  var(--accent);
     }
 
 } 
