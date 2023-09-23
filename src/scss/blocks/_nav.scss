@@ -4,20 +4,24 @@
     align-items: center;
     gap: 32px;
 }
-.logo {
-    color: #b83434;
-}
+
 .nav_list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-}
-.active {
-}
+    
+    a {
+        color:#181818;
+    }
+    a:hover, a.active{
+        color: #35aff4;
+    }
+
+} 
+
 .nav_btns {
-}
-.btn-login {
-}
-.btn-signup {
+    display: flex;
+    gap: 12px;
+
 }
