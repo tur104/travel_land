@@ -19,7 +19,7 @@ img {
 	font-weight: 700;
 	line-height: normal;
 
-	&--decor{
+	&--decor {
 		position: relative;
 	}
 
@@ -33,7 +33,7 @@ img {
 		height: 24px;
 
 		z-index: -1;
-		
+
 		background-image: url(./../img/discover/underline.svg);
 		background-repeat: no-repeat;
 	}
@@ -48,4 +48,8 @@ img {
 	p + p {
 		margin-top: 1em;
 	}
+}
+
+.muted {
+	color: var(--text-muted);
 }
