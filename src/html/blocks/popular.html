@@ -8,8 +8,8 @@
             </div>
 
             <div class="popular__control">
-                <button><img src="./img/icons/Button-left.svg" alt="Prev"></button>
-                <button><img src="./img/icons/Button-right.svg" alt="Next"></button>
+                <button id="sliderPrev" type="button"><img src="./img/icons/Button-left.svg" alt="Prev"></button>
+                <button id="sliderNext" type="button"><img src="./img/icons/Button-right.svg" alt="Next"></button>
             </div>
 
 
@@ -19,11 +19,7 @@
 
     <div class="container-right">
         <div class="popular__slider">
-            <div class="card">
-                <div class="card__img">
-                    <img src="" alt="">
-                </div>
-            </div>
+            @@include('./elements/swiper.html')
         </div>
     </div>
 </section>
