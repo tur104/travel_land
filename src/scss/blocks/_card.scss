@@ -1,4 +1,6 @@
-
+.card{
+    max-width: 304px;
+}
 .card__img {
     margin-bottom: 16px;
 
@@ -40,7 +42,7 @@
         width: 17px;
         height: 16px;
 
-        background-image: url(../img/discover/star-small.svg);
+        background-image: url(../img/icons/star-small.svg);
         background-repeat: no-repeat;
     }
 }

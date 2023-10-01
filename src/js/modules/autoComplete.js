@@ -26,7 +26,5 @@ function autoCompleteFunc() {
         searEngine: 'strict',
     });
 
-}
-
-
+}   
 export default autoCompleteFunc;
