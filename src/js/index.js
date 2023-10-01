@@ -2,11 +2,11 @@
 import swiper from './modules/swepir';
 swiper();
 
-import autoCompleteFunc from "./modules/autoComplete";
-autoCompleteFunc();
+import autoComplete from "./modules/autoComplete";
+autoComplete();
 
-import picker from './modules/easepick';
-picker();
+import easepick from './modules/easepick.js';
+easepick()
 
 // import mobileNav from './modules/mobile-nav.js';
 // mobileNav();

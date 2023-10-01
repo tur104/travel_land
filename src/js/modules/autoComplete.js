@@ -1,9 +1,8 @@
-import countryList from "./../helpers/countyList";
 import autoComplete from "@tarekraafat/autocomplete.js";
+import countryList from "./../helpers/countyList";
 
 
 function autoCompleteFunc() {
-
     const autoCompleteJS = new autoComplete({
         selector: '#autoCompleteContry',
         placeHolder: "e.g Bali, Indonesia",
@@ -26,5 +25,5 @@ function autoCompleteFunc() {
         searEngine: 'strict',
     });
 
-}   
+}
 export default autoCompleteFunc;
