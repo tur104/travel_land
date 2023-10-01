@@ -1,0 +1,45 @@
+.subscribe {
+    overflow: hidden;
+
+    padding: 80px 0;
+    background-color: var(--accent);
+    color: #fff;
+}
+
+.subscribe__row {
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+
+        left: -100px;
+        top: -85px;
+        width: 237px;
+        height: 273px;
+
+        background-image: url(./../img/icons/subscribe.svg);
+        background-repeat: no-repeat;
+    }
+}
+.subscribe__desc {
+    display: grid;
+    gap: 4px;
+}
+.subscribe__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+.subscribe__text {
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscribe__form {
+    flex-grow: 1;
+}
