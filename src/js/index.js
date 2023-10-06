@@ -1,6 +1,10 @@
 
-import swiper from './modules/swepir';
+import swiper from './modules/swepir-popular.js';
 swiper();
+
+
+import swiperTestimonials from './modules/swepir-testimonials.js';
+swiperTestimonials();
 
 import autoComplete from "./modules/autoComplete";
 autoComplete();

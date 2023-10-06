@@ -1,52 +1,60 @@
-
 .testimonials__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-
     overflow: hidden;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(3, 1fr);
 }
 .testimonials__col {
-    display: grid;
-    gap: 32px;
+    // display: grid;
+    // gap: 32px;
 
     // animation: slideUp 20s linear infinite;
 
-    &:nth-child(2){
-        padding-top: 100px;
-    }
-    &:nth-child(3){
-        padding-top: 24px;
-    }
-
+    // &:nth-child(2) {
+    //     padding-top: 100px;
+    // }
+    // &:nth-child(3) {
+    //     padding-top: 24px;
+    // }
 }
+
+.testimonials__swiper {
+    height: 900px;
+
+    .swiper-slide{
+        padding: 0 10px;
+        height: 325px ;
+    }
+}
+
 @keyframes slideUp {
-    0%{
+    0% {
         transform: translateY(0%);
     }
-    95%{
+    95% {
         transform: translateY(-50%);
         opacity: 1;
         filter: blur(0px);
-
     }
-    97%{
+    97% {
         transform: translateY(-50%);
         opacity: 1;
         filter: blur(10px);
-
     }
-    98%{
+    98% {
         transform: translateY(0%);
         opacity: 0;
         filter: blur(10px);
-
     }
-    100%{
+    100% {
         transform: translateY(0%);
         opacity: 1;
         filter: blur(0px);
-
     }
-    
+}
+
+.smooth-transition {
+    -webkit-transition-timing-function: linear !important;
+    -o-transition-timing-function: linear !important ;
+    -moz-transition-timing-function: linear !important;
 }
