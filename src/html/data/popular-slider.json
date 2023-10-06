@@ -1,0 +1,44 @@
+[
+    {
+        "img": "venice.jpg",
+        "title":"Venice, Italy",
+        "rating":"4.5",
+        "price":"900"
+    },
+    {
+        "img": "bali.jpg",
+        "title":"Venice, Italy",
+        "rating":"4.5",
+        "price":"900"
+    },
+    {
+        "img": "bangkok.jpg",
+        "title":"Venice, Italy",
+        "rating":"4.5",
+        "price":"900"
+    },
+    {
+        "img": "new-york.jpg",
+        "title":"Venice, Italy",
+        "rating":"4.5",
+        "price":"900"
+    },
+    {
+        "img": "paris.jpg",
+        "title":"Venice, Italy",
+        "rating":"4.5",
+        "price":"900"
+    },
+    {
+        "img": "venice.jpg",
+        "title":"Venice, Italy",
+        "rating":"4.5",
+        "price":"900"
+    },
+    {
+        "img": "santorini.jpg",
+        "title":"Venice, Italy",
+        "rating":"4.5",
+        "price":"900"
+    }
+]
