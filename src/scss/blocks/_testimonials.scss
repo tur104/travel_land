@@ -1,17 +1,17 @@
 .testimonials__grid {
     overflow: hidden;
     display: grid;
-    gap: 32px;
+    gap: 12px;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 10px;
+    margin: 0 -10px;
 }
 
 .testimonials__swiper {
     height: 900px;
 
-    .swiper-slide{
+    .swiper-slide {
         padding: 0 10px;
-        height: 325px ;
+        height: 325px;
     }
 }
 
@@ -43,6 +43,6 @@
 
 .smooth-transition {
     -webkit-transition-timing-function: linear !important;
-    -o-transition-timing-function: linear !important ;
-    -moz-transition-timing-function: linear !important;
+    -o-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
 }
