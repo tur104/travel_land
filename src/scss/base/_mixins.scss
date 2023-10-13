@@ -1,0 +1,19 @@
+
+@mixin mediaLaptor(){
+	@media (width < 1440px) {
+		@content;
+		
+	}
+}
+@mixin mediaTadlet(){
+	@media (width < 1024px) {
+		@content;
+		
+	}
+}
+@mixin mediaMobile(){
+	@media (width < 768px) {
+		@content;
+		
+	}
+}
