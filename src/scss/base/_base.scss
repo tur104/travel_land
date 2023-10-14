@@ -36,6 +36,19 @@ img {
 
 		background-image: url(./../img/discover/underline.svg);
 		background-repeat: no-repeat;
+
+		@include mediaMobile {
+			width: 184px;
+			height: 12px;
+			background-size: contain;
+		}
+	}
+
+	@include mediaTablet {
+		font-size: 52px;
+	}
+	@include mediaMobile {
+		font-size: 32px;
 	}
 }
 
@@ -55,6 +68,10 @@ img {
 
 	p + p {
 		margin-top: 1em;
+	}
+
+	@include mediaMobile {
+		font-size: 16px;
 	}
 }
 
