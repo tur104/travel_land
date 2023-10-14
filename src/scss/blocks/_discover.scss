@@ -10,6 +10,7 @@
 
     @include mediaTablet {
         grid-template-columns: 1fr;
+        gap: 40px;
     }
 }
 
@@ -46,6 +47,10 @@
     @include mediaLaptor {
         top: 50px;
         left: 20px;
+    }
+    @include mediaMobile{
+        top: 30px;
+        left: 0; 
     }
 }
 
