@@ -1,5 +1,9 @@
 .discover {
     padding: 60px 0;
+
+    @include mediaMobile {
+        padding: 30px 0;
+    }
 }
 
 .discover__grid {
@@ -20,6 +24,10 @@
 
 .discover__text {
     margin-bottom: 40px;
+
+    @include mediaMobileXS {
+        margin-bottom: 20px;
+    }
 }
 
 .discover__picture {
@@ -48,9 +56,12 @@
         top: 50px;
         left: 20px;
     }
-    @include mediaMobile{
+    @include mediaMobile {
         top: 30px;
-        left: 0; 
+        left: 0;
+    }
+    @include mediaMobileXS {
+        display: none;
     }
 }
 
@@ -63,7 +74,7 @@
         right: 5px;
         bottom: 0px;
     }
-    @include mediaMobile{
+    @include mediaMobile {
         width: 30%;
     }
 }
