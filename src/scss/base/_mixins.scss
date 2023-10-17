@@ -17,3 +17,9 @@
 		
 	}
 }
+@mixin mediaMobileXS(){
+	@media (width < 375px) {
+		@content;
+		
+	}
+}
