@@ -50,13 +50,21 @@ img {
 	@include mediaMobile {
 		font-size: 32px;
 	}
+	@include mediaMobileXS {
+		font-size: 24px;
+	}
 }
 
 .title-3 {
 	font-size: 36px;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: normal;
+
+	@include mediaMobile{
+	font-size: 28px;
+
+	}
 }
 
 .text {
