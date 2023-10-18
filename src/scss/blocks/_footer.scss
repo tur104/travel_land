@@ -6,6 +6,10 @@
 	a {
 		color: var(--text-white);
 	}
+
+	@include mediaMobile {
+		padding: 40px 0;
+	}
 }
 
 .footer__row {
@@ -14,6 +18,17 @@
 	gap: 128px;
 
 	align-items: start;
+
+	@include mediaMobile {
+		gap: 50px;
+	}
+
+	@include mediaMobileS {
+		
+		grid-template-columns: 1fr;
+		gap: 30px;
+		
+	}
 }
 .footer__copyright {
 	display: grid;
@@ -25,13 +40,22 @@
 		font-weight: 450;
 		line-height: 150%;
 	}
+
+	@include mediaMobileS {
+		justify-items: center;
+	}
 }
 .footer__copyright-text {
-	max-width: 300px;
+	max-width: 320px;
 }
 .footer__nav {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	column-gap: 40px;
 	align-items: start;
+
+	@include mediaMobileS {
+		grid-row: -1 / 1;
+		justify-items: center;
+	}
 }
