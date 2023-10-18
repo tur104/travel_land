@@ -4,6 +4,10 @@
     padding: 80px 0;
     background-color: var(--accent);
     color: #fff;
+
+    @include mediaLaptor {
+        padding: 40px 0;
+    }
 }
 
 .subscribe__row {
@@ -26,6 +30,23 @@
 
         background-image: url(./../img/icons/subscribe.svg);
         background-repeat: no-repeat;
+
+        @include mediaTablet {
+            top: -50px;
+        }
+        @include mediaMobile {
+            display: none;
+        }
+    }
+
+    @include mediaTablet {
+        padding: 0 140px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    @include mediaMobile {
+        padding: 0;
     }
 }
 .subscribe__desc {
@@ -35,11 +56,28 @@
 .subscribe__title {
     font-size: 28px;
     font-weight: 600;
+
+    @include mediaMobileS {
+        font-size: 24px;
+    }
 }
 .subscribe__text {
     font-size: 20px;
     font-weight: 500;
+
+    @include mediaMobileS {
+        font-size: 16px;
+    }
 }
 .subscribe__form {
     flex-grow: 1;
+    min-width: 400px;
+
+    @include mediaMobile {
+        min-width: unset;
+    }
+
+    @include mediaMobileS {
+        width: 100%;
+    }
 }
